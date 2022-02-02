@@ -33,8 +33,8 @@
                    <span class="navbar-toggler-icon"></span> 
                 </button>
 
-                <div class="collapse navbar-collapse" id="nav-principal">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse " id="nav-principal">
+                    <ul class="navbar-nav ml-auto ">
                         <li class="nav-item">
                             <a class="nav-link"href="">Home</a>
                         </li>
@@ -116,28 +116,31 @@
 
     <section class="caixa">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="imagens/juros.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
+            <div class="row ">
+                <div class="col-md-6 d-flex order-md-1">
+                    <div class="align-self-center ">
                         <h2>Pare de pagar juros e economize</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga totam ducimus similique reiciendis quas, provident ipsum pariatur facilis sapiente quae veritatis temporibus qui nihil mollitia atque assumenda porro, obcaecati maiores!</p>
                         <a href="" class="btn btn-primary">Veja mais</a>
                     </div>                    
                 </div>
+
+                                
+                <div class="col-md-6 d-flex">
+                    <img src="imagens/juros.png" class="img-fluid" alt="">
+                </div>
+
             </div>
         </div>
     </section>
 
         <!-- Conteúdo 3-->
     
-     <section class="<!--Config da caixa de conteudo (border/fundo/etc-->">
+     <section class="caixa">
          <div class="container">
              <div class="row">
-                <div class="col-md-4">
-                   <img src="imagens/facil.png" class="img-fluid" alt="">
+                <div class="col-md-4 ">
+                   <img src="imagens/facil.png" class="img-fluid d-none d-md-block" alt="">
                    <h2>Facil de usar</h2>
                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas labore consectetur commodi doloribus.</p>
                 </div>
@@ -156,11 +159,10 @@
      </section>
  
      <!-- Rodapé -->
-     <!--Configurar margin do footer no CSS (margin:5px; 15px;)-->
      <footer class="mt-4 mb-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 d-flex justify-content-center justify-md-content-end">
                     <p>
                         <a href="">Home</a> 
                         <a href="">Recursos</a>
@@ -168,7 +170,7 @@
                         <a href="">Preços</a>
                     </p>
                 </div>
-                <div class="col-md-4 d-flex justify-content-end">
+                <div class="col-md-4 d-flex justify-content-center justify-md-content-end">
                     <a class="btn btn-outline-dark ml-2" href="">
                         <i class="fab fa-facebook"></i>
                     </a>
